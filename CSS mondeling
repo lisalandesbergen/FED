@@ -1,0 +1,102 @@
+body{
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    text-shadow: 1px 1px 2px blue;
+    background-color: gold;
+}
+header{
+    display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+    color: greenyellow;
+    background-color: deeppink;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: forestgreen;
+    border-radius: 6px:
+
+}
+p:hover {
+    background: transparent;
+}
+
+p:nth-of-type(2) {
+    background: #ff0000;
+}
+p:nth-of-type(3) {
+    background: #00ff00;
+}
+
+nav{
+    border-style: solid;
+    border-width: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    border-color: aquamarine;
+    background-color: tomato;
+    border-radius: 10%;
+    text-align: center;
+    -webkit-transform:rotate(180deg);
+}
+
+input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
+
+
+h1{
+    text-shadow: 2px 2px 8px #000;
+    color: aqua;
+    -webkit-transform:skew(-50deg);
+}
+h1 + P {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+
+}
+ol{
+    background-color: bisque;
+    text-align: center;
+
+}
+li{
+
+    transition: 2s;
+    -webkit-transform:rotate(0deg);
+}
+a{
+      color: forestgreen;
+    text-decoration: none;
+}
+
+main form input, textarea {
+    width: 100%;
+}
+label {
+    display: block;
+}
+
+li:hover{
+    color: yellow;
+    font-size: 5em;
+    -webkit-transform:rotate(180deg);
+}
+
+@media (max-width: 80em) {
+  body { background: #00ff00; }
+}
+
+@media (max-width: 40em) {
+    body { background: white; }
+}
